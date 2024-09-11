@@ -13,11 +13,5 @@ MindSpace is a cutting-edge mental health platform designed to provide users wit
 - **User Dashboard**: Track your progress, manage your appointments, and review diagnostics results from a personalized dashboard.
 - **Community Support**: Connect with others through forums and support groups to share experiences and gain insights.
 
-## Installation
+![image](https://github.com/user-attachments/assets/cad8bd63-cdd1-4da9-9954-3f8f2596fd2c)
 
-To set up MindSpace locally, follow these steps:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/prsAxios/MindSpace.git
