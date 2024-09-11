@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.questions h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.questions {
+    margin: 10px;
+}
+
+.options{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    cursor: pointer;
+    margin: 30px 80px;
+    justify-content: center;
+}
+
+.options button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Prevbtn,
+.Nxtbtn {
+    display: flex;
+    background-color: #ff006f;
+    color: white;
+    border: none;
+    padding: 15px 52px;
+    font-size: 16px;
+    margin: 35px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.Prevbtn {
+    background-color: beige;
+    color: black;
+}
+
+.Prevbtn i, .Nxtbtn i {
+    font-size: 22px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-weight: 400;
+        font-size: smaller;
+    }
+}
